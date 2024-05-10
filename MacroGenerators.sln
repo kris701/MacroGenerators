@@ -5,6 +5,15 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroGenerators", "MacroGenerators\MacroGenerators.csproj", "{195C4BF1-7A45-4B86-8C2F-3D609C1F2C2D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{431DFC6D-5FB9-4D08-8BFC-F9A9124D387C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\workflows\dotnet-desktop.yml = .github\workflows\dotnet-desktop.yml
+		LICENSE.txt = LICENSE.txt
+		logo.png = logo.png
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

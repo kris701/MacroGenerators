@@ -4,6 +4,44 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>MacroGenerators</Title>
+	  <Authors>Kristian Skov Johansen</Authors>
+	  <Description>A collection of macro generators.</Description>
+	  <RepositoryUrl>https://github.com/kris701/MacroGenerators</RepositoryUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageIcon>logo.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="logo.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PDDLSharp" Version="1.5.5" />
+  </ItemGroup>
 
 </Project>
