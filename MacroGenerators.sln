@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroGenerators", "MacroGenerators\MacroGenerators.csproj", "{195C4BF1-7A45-4B86-8C2F-3D609C1F2C2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{195C4BF1-7A45-4B86-8C2F-3D609C1F2C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195C4BF1-7A45-4B86-8C2F-3D609C1F2C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195C4BF1-7A45-4B86-8C2F-3D609C1F2C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195C4BF1-7A45-4B86-8C2F-3D609C1F2C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABBB0DA3-1411-4922-8823-4924CEF665D3}
+	EndGlobalSection
+EndGlobal
