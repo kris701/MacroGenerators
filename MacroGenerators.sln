@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroGenerators.CLI", "MacroGenerators.CLI\MacroGenerators.CLI.csproj", "{51F1C580-5E51-4A52-8F46-F15ED5BAF422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroGenerators.Tests", "MacroGenerators.Tests\MacroGenerators.Tests.csproj", "{09C41F7B-60D7-427C-8743-7C8831BCD25D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,14 @@ Global
 		{195C4BF1-7A45-4B86-8C2F-3D609C1F2C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{195C4BF1-7A45-4B86-8C2F-3D609C1F2C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{195C4BF1-7A45-4B86-8C2F-3D609C1F2C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F1C580-5E51-4A52-8F46-F15ED5BAF422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F1C580-5E51-4A52-8F46-F15ED5BAF422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F1C580-5E51-4A52-8F46-F15ED5BAF422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F1C580-5E51-4A52-8F46-F15ED5BAF422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C41F7B-60D7-427C-8743-7C8831BCD25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C41F7B-60D7-427C-8743-7C8831BCD25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C41F7B-60D7-427C-8743-7C8831BCD25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C41F7B-60D7-427C-8743-7C8831BCD25D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
