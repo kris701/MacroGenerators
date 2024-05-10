@@ -13,7 +13,14 @@
 ![Static Badge](https://img.shields.io/badge/Framework-dotnet--8.0-green)
 
 # MacroGenerators
-This project is a collection of different macro generators.
+This project is a collection of different macro generators. 
+You can run the different macro generators by calling the CLI tool:
+
+```
+dotnet run --domain domain.pddl --problem problem.pddl --plans plan1.plan plan2.plan ... --generator Sequential
+```
+
+You can also find this project as a package on the [NuGet Package Manager](https://www.nuget.org/packages/MacroGenerators/).
 
 ## Sequential Macro Generator
 
