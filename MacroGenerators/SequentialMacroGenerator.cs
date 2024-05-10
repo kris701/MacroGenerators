@@ -6,15 +6,32 @@ using PDDLSharp.Toolkits;
 
 namespace MacroGenerators
 {
+    /// <summary>
+    /// A sequential macro generator.
+    /// This generates macros based on reoccuring entangles macros from plans
+    /// </summary>
     public class SequentialMacroGenerator : IMacroGenerator<List<ActionPlan>>
     {
+        /// <summary>
+        /// The PDDL declaration to generate for
+        /// </summary>
         public PDDLDecl Declaration { get; }
 
+        /// <summary>
+        /// Main constructor
+        /// </summary>
+        /// <param name="declaration"></param>
         public SequentialMacroGenerator(PDDLDecl declaration)
         {
             Declaration = declaration;
         }
 
+        /// <summary>
+        /// Method to generate a set of macros from a list of plans
+        /// </summary>
+        /// <param name="from"></param>
+        /// <param name="amount"></param>
+        /// <returns></returns>
         public List<ActionDecl> FindMacros(List<ActionPlan> from, int amount = int.MaxValue)
         {
             var actionBlocks = GetBlocks(from);
